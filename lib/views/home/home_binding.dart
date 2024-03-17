@@ -4,8 +4,6 @@ import 'package:plant_shop_app/views/home/home_controller.dart';
 class HomeViewBinding extends Bindings {
   @override
   void dependencies() {
-    Get.lazyPut(
-      () => HomeViewController(),
-    );
+    Get.lazyPut(() => HomeViewController());
   }
 }

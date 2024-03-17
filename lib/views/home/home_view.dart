@@ -16,7 +16,9 @@ class HomeView extends StatelessWidget {
             Navigator.pop(context);
           },
         ),
-        title: const Text('Plant Shop'),
+        title: const Text(
+          'Plant Shop',
+        ),
         centerTitle: true,
       ),
       body: const Center(
